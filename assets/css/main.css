@@ -56,6 +56,7 @@ main {
 @media (max-width: 850px) {
   .intro {
     gap: 32px;
+    margin-bottom: 80px;
   }
   .main-title {
     font-size: 40px;
@@ -63,13 +64,13 @@ main {
   .main-content-text {
     font-size: 16px;
     margin-bottom: 20px;
+    justify-self: center;
   }
   .main-content-buttons-area {
     gap: 20px;
   }
   .main-image {
     width: 70%;
-    justify-self: center;
   }
 }
 @media (max-width: 700px) {
@@ -83,6 +84,7 @@ main {
   .main-image {
     grid-row: 1;
     width: 40%;
+    justify-self: center;
   }
   .main-content-buttons-area {
     justify-content: center;

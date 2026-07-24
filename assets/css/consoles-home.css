@@ -1,6 +1,14 @@
-section {
-  background: blue;
-}
-.consoles .consoles-title {
+.consoles-title {
   text-align: center;
+  font-size: 48px;
+}
+@media (max-width: 800px) {
+  .consoles-title {
+    font-size: 28px;
+  }
+}
+@media (max-width: 600px) {
+  .consoles-title {
+    font-size: 20px;
+  }
 }
