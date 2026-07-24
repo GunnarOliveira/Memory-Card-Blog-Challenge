@@ -1,0 +1,21 @@
+main {
+  padding-top: 180px;
+}
+.main-title {
+  padding-bottom: 20px;
+  font-size: 72px;
+}
+.main-content-text {
+  margin-bottom: 40px;
+  font-family: "Geist Pixel", sans-serif;
+  font-size: 24px;
+  font-weight: 400;
+  max-width: 36ch;
+  line-height: 1.5;
+  color: #d0d4d7;
+}
+.main-content-buttons-area {
+  display: flex;
+  gap: 40px;
+  align-items: center;
+}
