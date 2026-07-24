@@ -1,11 +1,12 @@
 main {
   padding-top: 180px;
+  margin-bottom: 180px;
 }
 .intro {
   display: grid;
-  grid-template-columns: 6fr 4fr;
+  grid-template-columns: 1fr 1fr;
   justify-items: center;
-  padding: 180px 40px 0px 40px;
+  gap: 40px;
 }
 .main-title {
   padding-bottom: 20px;
@@ -28,17 +29,15 @@ main {
 }
 .main-image {
   align-self: center;
+  justify-self: end;
 }
 @media (max-width: 1200px) {
   .intro {
-    padding-top: 80px;
-    gap: 60px;
-  }
-}
-@media (max-width: 960px) {
-  .intro {
     grid-template-columns: 1fr 1fr;
     text-align: right;
+    gap: 20px;
+    padding-left: 40px;
+    padding-right: 40px;
   }
   .main-title {
     font-size: 48px;
@@ -49,6 +48,9 @@ main {
   .main-content-buttons-area {
     gap: 16px;
     justify-content: end;
+  }
+  .main-image {
+    justify-self: start;
   }
 }
 @media (max-width: 850px) {
@@ -64,6 +66,10 @@ main {
   }
   .main-content-buttons-area {
     gap: 20px;
+  }
+  .main-image {
+    width: 70%;
+    justify-self: center;
   }
 }
 @media (max-width: 700px) {

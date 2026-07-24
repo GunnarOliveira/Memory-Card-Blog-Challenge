@@ -13,6 +13,7 @@
 body,
 html {
   background: url("../img/BG.png") var(--cor-12);
+  height: 10000px;
 }
 a {
   font-family: inherit;
@@ -26,9 +27,11 @@ img {
   object-fit: cover;
 }
 .container {
-  max-width: 1200px;
+  max-width: 1000px;
   margin: 0 auto;
   padding-top: 64px;
+  display: grid;
+  justify-items: center;
 }
 .color-change {
   color: #83cbff;
