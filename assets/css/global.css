@@ -45,7 +45,6 @@ img {
 }
 .button-primary {
   background: #3969a8;
-  border: 2px solid transparent;
   clip-path: polygon(
     0 12px,
     4px 12px,
@@ -81,11 +80,15 @@ img {
   background: #4376b9;
   color: #ffffff;
 }
-
+.button-outline:hover {
+  background: #3969a8;
+}
+.button-outline:hover span {
+  color: #dde6f7;
+}
 .button-outline {
   position: relative;
   background: #ffffff;
-
   clip-path: polygon(
     0 12px,
     4px 12px,
@@ -117,8 +120,6 @@ img {
     0 calc(100% - 12px)
   );
 }
-
-/* Preenchimento interno que cria o efeito "vazado" */
 .button-outline::before {
   content: "";
   position: absolute;
@@ -148,7 +149,6 @@ img {
     0 calc(100% - 8px)
   );
 }
-
 .button-outline span {
   position: relative;
   z-index: 2;
