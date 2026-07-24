@@ -12,6 +12,7 @@ header {
   justify-content: center;
   align-items: center;
   gap: 40px;
+  row-gap: 0;
 }
 .header-menu a {
   padding: 12px 0px;
@@ -26,7 +27,7 @@ header {
   color: #ffd666;
 }
 .menu-items:nth-child(4):hover {
-  color: #66ff73;
+  color: #e3b3fe;
 }
 .menu-items:nth-child(5):hover {
   color: #ff7b81;
@@ -48,9 +49,19 @@ header {
     margin-right: 32px;
   }
 }
-@media (max-width: 600px) {
+@media (max-width: 1000px) {
+  .header-menu {
+    gap: 12px;
+    row-gap: 0;
+    font-size: 20px;
+  }
+}
+@media (max-width: 580px) {
   header {
     font-size: 16px;
+  }
+  .menu-logo a {
+    padding: 0;
   }
   .header-menu img {
     width: 70%;
@@ -60,7 +71,7 @@ header {
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 20px;
+    gap: 0px 20px;
     padding: 20px;
     flex-wrap: wrap;
   }
