@@ -9,6 +9,7 @@
 a {
   color: inherit;
   font-family: inherit;
+  display: inline-block;
 }
 img {
   display: block;
@@ -23,6 +24,9 @@ html {
   max-width: 1100px;
   margin: 0 auto;
   padding: 0px 20px;
+}
+.blue-text {
+  color: #b0d1fc;
 }
 .menu-item:hover.blue {
   color: #b0d1fc;

@@ -1,6 +1,7 @@
 .button {
   padding: 16px 20px;
   text-transform: uppercase;
+  font-family: "Pixelify Sans", sans-serif;
   font-size: 24px;
   color: #ecf2fb;
   transition: 0.125s;
@@ -46,9 +47,6 @@
 .button-primary:hover {
   background: #4376b9;
   color: #ffffff;
-}
-.button-outline:hover {
-  background: #6e9bd6;
 }
 
 .button-outline {

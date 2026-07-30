@@ -1,0 +1,23 @@
+.main-title {
+  font-family: "Pixelify Sans", sans-serif;
+  font-size: 4.25rem;
+  letter-spacing: 2px;
+  line-height: 0.9;
+  margin-bottom: 32px;
+}
+.intro-content-text {
+  font-family: "Jersey 25", sans-serif;
+  font-weight: 400;
+  font-size: 2rem;
+  max-width: 32ch;
+  margin-bottom: 32px;
+}
+.intro {
+  display: grid;
+  grid-template-columns: 6fr 4fr;
+  align-items: center;
+}
+.buttons-area {
+  display: flex;
+  gap: 20px;
+}
