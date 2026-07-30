@@ -20,7 +20,7 @@
 }
 .buttons-area {
   display: grid;
-  grid-template-columns: 1fr 1fr;
+  grid-template-columns: max-content max-content;
   gap: 20px;
 }
 @media (max-width: 1100px) {

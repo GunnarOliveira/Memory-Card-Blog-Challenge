@@ -4,7 +4,7 @@
 
 @media (max-width: 1200px) {
   .header {
-    padding: 32px 0px 80px 0px;
+    padding: 32px 0px 60px 0px;
   }
 }
 .header-menu {
@@ -78,7 +78,7 @@
 .menu-logo img {
   transition: 0.25s;
 }
-@media (max-width: 600px) {
+@media (max-width: 800px) {
   .menu-item a {
     font-size: 1rem;
   }
