@@ -6,7 +6,6 @@
   grid-template-columns: repeat(5, auto);
   align-items: center;
   gap: 40px;
-  /* border: 1px solid red; */
 }
 @media (max-width: 1200px) {
   .header-menu {
@@ -29,6 +28,7 @@
     align-items: center;
     justify-content: center;
     text-align: center;
+    gap: 12px;
   }
   .menu-logo {
     order: -1;
@@ -46,14 +46,42 @@
 .menu-item {
   font-family: "Pixelify Sans", sans-serif;
   font-size: 1.5rem;
-  font-weight: 400;
+  font-weight: bold;
   text-transform: uppercase;
+  letter-spacing: 2px;
+}
+@media (max-width: 600px) {
+  .menu-item a {
+    font-size: 1rem;
+  }
 }
 .menu-item a {
   display: block;
   padding: 10px 0px;
+  text-align: center;
+  transition: 0.25s;
 }
-
+.menu-item:hover a,
+.menu-logo:hover img {
+  transform: translateY(-8px);
+}
+.menu-item a:active,
+.menu-logo:active img {
+  transform: translateY(8px);
+}
+.menu-logo img {
+  transition: 0.25s;
+}
+@media (max-width: 600px) {
+  .menu-item a {
+    font-size: 1rem;
+  }
+  .menu-item:hover a,
+  .menu-item a:active,
+  .menu-logo:hover img {
+    transform: none;
+  }
+}
 /* p {
   font-size: 3rem;
   font-family: "Pixelify Sans", "Jersey 25", sans-serif;

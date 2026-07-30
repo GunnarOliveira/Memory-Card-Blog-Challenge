@@ -24,3 +24,15 @@ html {
   margin: 0 auto;
   padding: 0px 20px;
 }
+.menu-item:hover.blue {
+  color: #b0d1fc;
+}
+.menu-item:hover.purple {
+  color: #a7a1f3;
+}
+.menu-item:hover.red {
+  color: #f3a1ac;
+}
+.menu-item:hover.yellow {
+  color: #f3e8a1;
+}
