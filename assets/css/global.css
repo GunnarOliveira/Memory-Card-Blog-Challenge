@@ -4,8 +4,23 @@
   list-style: none;
   text-decoration: none;
   box-sizing: border-box;
+  color: #ffffff;
+}
+a {
+  color: inherit;
+  font-family: inherit;
+}
+img {
+  display: block;
+  max-width: 100%;
 }
 body,
 html {
+  min-height: 100vh;
   background: url("../img/BG.png");
+}
+.container {
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 0px 20px;
 }
