@@ -13,7 +13,9 @@
   max-width: 32ch;
   margin-bottom: 32px;
 }
-
+.intro-image {
+  justify-items: end;
+}
 .intro {
   display: grid;
   grid-template-columns: 6fr 4fr;
