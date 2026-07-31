@@ -20,6 +20,7 @@
   display: grid;
   grid-template-columns: 6fr 4fr;
   align-items: center;
+  margin-bottom: 180px;
 }
 .buttons-area {
   display: grid;

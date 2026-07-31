@@ -1,7 +1,18 @@
 .sencodary-title {
+  text-align: center;
   font-family: "Pixelify Sans", sans-serif;
   font-size: 2rem;
   font-weight: bold;
   text-transform: uppercase;
   letter-spacing: 2px;
+  margin-bottom: 80px;
+}
+.consoles-list {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(180px, 300px));
+  align-items: center;
+  gap: 80px;
+}
+.consoles-list-item {
+  flex: 1;
 }
